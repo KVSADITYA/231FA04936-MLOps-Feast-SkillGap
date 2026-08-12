@@ -1,0 +1,6 @@
+feast==0.64.0
+pandas
+numpy
+pyarrow
+scikit-learn
+joblib
