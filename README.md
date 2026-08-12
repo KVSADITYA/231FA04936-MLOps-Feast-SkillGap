@@ -227,10 +227,10 @@ RESULTS
 After executing the notebook, include the following outputs in the repository
 or report:
 
-1. Historical feature output
-2. Model accuracy
-3. Online feature output
-4. One final prediction
+1. Historical feature output: The historical retrieval successfully fetched a DataFrame with a shape of (180, 36). This includes the 180 student records joined with their corresponding 36 feature columns (such as Skill_Gap_Category, Average_Curriculum_Score, event_timestamp, etc.) from the offline store.
+2. Model accuracy: The logistic regression model achieved an accuracy of 88.89%.
+3. Online feature output: The online store successfully returned the latest materialized feature values for a single student. The retrieved output is a DataFrame with 1 row and 34 columns for the student ID CSE26035.
+4. One final prediction: Using the features retrieved from the online store, the model's final predicted skill-gap category for student CSE26035 is Low.
 
 
 HOW TO RUN
